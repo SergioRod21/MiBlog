@@ -1,0 +1,85 @@
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #48CFAD;
+    justify-content: flex-end;
+}
+
+.social-media_container {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+
+.social-media_icon {
+    height: 30px;
+    align-self: center;
+}
+
+.hero {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    height: 85px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 250px;
+}
+
+.hero h2 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    margin: 0 auto;
+    height: 500px;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(./images/cover.png);
+    background-repeat: no-repeat;
+}
+
+.information__container {
+    margin-top: 60px;
+    width: 750px;
+    text-align: center;
+}
+
+.information__container h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.information__container button {
+    margin-top: 40px;
+    background-color: #48CFAD;
+    border: 1px solid white;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    font-size: 18px;
+}
+
+.information__container button:hover {
+    cursor: pointer;
+}
